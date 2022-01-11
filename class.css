@@ -5,3 +5,15 @@
     padding: 10px; 
   
 }
+
+.menu{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width: 535px;
+    background-color: #343e48;
+    position: relative;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}

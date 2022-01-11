@@ -1,3 +1,9 @@
+.site-header, .header-default .site-header.fixed-header,
+ .header-centered .site-header.fixed-header, .header-side .site-wrapper {
+    background: #222222;
+}
+
+
 p {
     color: grey
 }

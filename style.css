@@ -3919,3 +3919,11 @@ p {
     height: auto;
     vertical-align: middle;
 }
+
+#mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
+    background: #ffbf00;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: #fff;
+}

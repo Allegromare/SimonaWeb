@@ -7,7 +7,7 @@ html {
   font-family: lato, sans-serif;
 }
 
-body {
+body, div {
   background-color:#343e48;
   background: radial-gradient(closest-corner, #343e48 60%, rgba(219, 227, 231, 0.26));
   width: 100%;

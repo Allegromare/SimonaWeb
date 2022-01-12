@@ -4,7 +4,10 @@
   align-items: center;
 }
  
-  .menu {
+.menu {
+    position: sticky;
+    display: flex;
+    align-items: center;
     text-align: center;
-  }
+}
   

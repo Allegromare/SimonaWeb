@@ -1,53 +1,10 @@
 .logo {
-    display:block; 
-    width: 100%; 
-    text-align: center; 
-    padding: 10px;
+  position: sticky;
+  display: flex;
+  align-items: center;
 }
  
   .menu {
     text-align: center;
   }
-  .voce_menu {
-    display: inline;
-    margin-right: 15px;
-    transition: all 0.3s ease-in-out;
-  }
-  .voce_menu:hover {
-    height: 85px;
-  }
-  .voce_menu:hover a {
-    color: #3862a0;
-  }
-  .voce_menu:hover a::before {
-    visibility: visible;
-    transform: scale(1, 1);
-  }
   
-  .voce_menu a {
-    color: #999;
-    display: block;
-    padding: 0 7px 0 7px;
-    margin: 0 0 10px;
-    text-decoration: none;
-    position: relative;
-  }
-  .voce_menu a::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    bottom: -10px;
-    left: 0px;
-    background-color: #3862a0;
-    transition: all 0.2s ease-in-out;
-    transform: scale(0, 0);
-    visibility: hidden;
-  }
-  
-  /*-------Some fancy styling-------*/
-  h1 {
-    text-align: center;
-    font-family: satisfy;
-    font-weight: 300;
-  }

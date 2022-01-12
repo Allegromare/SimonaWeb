@@ -524,7 +524,15 @@ body {
   width: 100%;
   margin: 0;
 }
-body > header,
+
+body > header {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: var(--block-spacing-vertical) 0;
+}
+
 body > main,
 body > footer {
   width: 100%;
